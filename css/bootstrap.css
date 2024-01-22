@@ -12253,3 +12253,29 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.section-title {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Exo", sans-serif;
+}
+
+footer {
+  background-color: #182A79;
+  padding: 60px 0;
+}
+footer * {
+  color: #fff;
+}
+footer ul > li:not(:last-child) {
+  margin-bottom: 1rem;
+}
+footer ul > li a {
+  text-decoration: none;
+  font-size: 1rem;
+}
+footer ul > li a:hover {
+  color: #cccccc;
+}
+footer .section-title {
+  margin-bottom: 20px;
+}
