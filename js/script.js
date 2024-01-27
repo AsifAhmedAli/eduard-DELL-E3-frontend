@@ -18,3 +18,10 @@ fetch("components/reviews-section.html")
   .then((data) => {
     document.getElementById("reviews-section").innerHTML = data;
   });
+
+// Load Why us Section
+fetch("components/why-us.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("whyus").innerHTML = data;
+  });

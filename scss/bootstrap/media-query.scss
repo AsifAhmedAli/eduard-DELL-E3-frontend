@@ -7,6 +7,11 @@
   }
 }
 @include media-breakpoint-down(lg) {
+  .whyus {
+    .box {
+      padding: 1rem;
+    }
+  }
 }
 @include media-breakpoint-down(xl) {
 }
