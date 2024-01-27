@@ -12337,7 +12337,7 @@ textarea.form-control-lg {
   background-color: #fff;
 }
 .whatcreate .main-box .text-box {
-  padding: 1rem 48px;
+  padding: 2rem 48px;
   height: 100%;
 }
 .whatcreate .main-box img {
@@ -12379,6 +12379,12 @@ footer .section-title {
 @media (max-width: 991.98px) {
   .whyus .box {
     padding: 1rem;
+  }
+  .whatcreate .main-box {
+    border-radius: 24px;
+  }
+  .whatcreate .main-box img {
+    height: 300px;
   }
 }
 @media (min-width: 1400px) {
