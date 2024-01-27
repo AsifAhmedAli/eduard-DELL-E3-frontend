@@ -2,7 +2,9 @@
 }
 @include media-breakpoint-down(md) {
   .compete,
-  .reviews-section {
+  .reviews-section,
+  .whyus,
+  .whatcreate {
     padding: 20px 0;
   }
 }

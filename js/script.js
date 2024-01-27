@@ -20,8 +20,15 @@ fetch("components/reviews-section.html")
   });
 
 // Load Why us Section
-fetch("components/why-us.html")
+fetch("components/why-us-section.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("whyus").innerHTML = data;
+  });
+
+// Load What to Create Section
+fetch("components/what-create-section.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("whatcreate").innerHTML = data;
   });

@@ -12254,6 +12254,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+[class*=material-symbols] {
+  position: relative;
+  top: 0.325rem;
+  font-size: 1.125em;
+  font-weight: inherit;
+}
 [class*=material-symbols].fill {
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
 }
@@ -12321,6 +12327,26 @@ textarea.form-control-lg {
   text-align: center;
 }
 
+.whatcreate {
+  padding: 60px 0;
+}
+.whatcreate .main-box {
+  border-radius: 48px;
+  overflow: hidden;
+  box-shadow: 0px 5px 11px 0px rgba(51, 51, 51, 0.1), 0px 19px 19px 0px rgba(51, 51, 51, 0.09), 0px 44px 26px 0px rgba(51, 51, 51, 0.05), 0px 78px 31px 0px rgba(51, 51, 51, 0.01), 0px 121px 34px 0px rgba(51, 51, 51, 0);
+  background-color: #fff;
+}
+.whatcreate .main-box .text-box {
+  padding: 1rem 48px;
+  height: 100%;
+}
+.whatcreate .main-box img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: center center;
+}
+
 footer {
   background-color: #182A79;
   padding: 60px 0;
@@ -12344,7 +12370,9 @@ footer .section-title {
 
 @media (max-width: 767.98px) {
   .compete,
-  .reviews-section {
+  .reviews-section,
+  .whyus,
+  .whatcreate {
     padding: 20px 0;
   }
 }
