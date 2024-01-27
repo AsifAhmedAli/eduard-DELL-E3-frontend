@@ -1,15 +1,31 @@
 @include media-breakpoint-down(sm) {
-    
 }
 @include media-breakpoint-down(md) {
-    
+  .compete,
+  .reviews-section {
+    padding: 20px 0;
+  }
 }
 @include media-breakpoint-down(lg) {
-    
 }
 @include media-breakpoint-down(xl) {
-    
 }
 @include media-breakpoint-down(xxl) {
-    
+}
+
+@include media-breakpoint-up(sm) {
+}
+@include media-breakpoint-up(md) {
+}
+@include media-breakpoint-up(lg) {
+}
+@include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-up(xxl) {
+  h1 {
+    font-size: 72px;
+  }
+  .punch {
+    font-size: 24px;
+  }
 }

@@ -5,7 +5,6 @@ fetch("components/header.html")
     document.getElementsByTagName("header")[0].innerHTML = data;
   });
 
-
 // Load Footer Component
 fetch("components/footer.html")
   .then((response) => response.text())
@@ -13,4 +12,9 @@ fetch("components/footer.html")
     document.getElementsByTagName("footer")[0].innerHTML = data;
   });
 
-
+// Load Reviews Section
+fetch("components/reviews-section.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("reviews-section").innerHTML = data;
+  });
