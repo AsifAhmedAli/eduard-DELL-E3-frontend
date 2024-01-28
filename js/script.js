@@ -33,9 +33,16 @@ fetch("components/what-create-section.html")
     document.getElementById("whatcreate").innerHTML = data;
   });
 
-// Load What to Create Section
+// Load Need some Advice Section
 fetch("components/need-advice-section.html")
   .then((response) => response.text())
   .then((data) => {
     document.getElementById("needadvice").innerHTML = data;
+  });
+
+// Load FAQs Section
+fetch("components/faqs-section.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("faqs-section").innerHTML = data;
   });

@@ -4506,7 +4506,8 @@ textarea.form-control-lg {
   align-items: center;
   width: 100%;
   padding: 1rem 1.25rem;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
   color: #1F1F21;
   text-align: left;
   background-color: #fff;
@@ -12353,6 +12354,11 @@ textarea.form-control-lg {
 .needadvice img {
   object-fit: cover;
   object-position: center center;
+}
+
+.faqs-section {
+  background-color: #182A79;
+  padding: 60px 0;
 }
 
 footer {
