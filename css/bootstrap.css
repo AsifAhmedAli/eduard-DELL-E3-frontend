@@ -12347,6 +12347,14 @@ textarea.form-control-lg {
   object-position: center center;
 }
 
+.needadvice {
+  padding: 60px 0;
+}
+.needadvice img {
+  object-fit: cover;
+  object-position: center center;
+}
+
 footer {
   background-color: #182A79;
   padding: 60px 0;
@@ -12372,7 +12380,8 @@ footer .section-title {
   .compete,
   .reviews-section,
   .whyus,
-  .whatcreate {
+  .whatcreate,
+  .needadvice {
     padding: 20px 0;
   }
 }
