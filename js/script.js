@@ -46,3 +46,10 @@ fetch("components/faqs-section.html")
   .then((data) => {
     document.getElementById("faqs-section").innerHTML = data;
   });
+
+// Load Discount Section
+fetch("components/discount-section.html")
+  .then((response) => response.text())
+  .then((data) => {
+    document.getElementById("discount-section").innerHTML = data;
+  });
